@@ -4,13 +4,13 @@ import './App.css';
 
 function App() {
  const [user, setUser]  = useState('Hash')
- 
+
 //  useEffect(()=> {
 
 //  }, [])
 
  const clickHandler = () => {
-  setUser(user)
+  setUser('hello')
  }
 
  
